@@ -27,7 +27,7 @@ This website is responsive at various mobile, tablet and desktop screen sizes to
 
 **Projects**: This shows projects that I will add once I have ompleted them through out my studies.
 
-**Blog**: The blog home page shows the latest blog as a feature, with a horixontal scrollbar of otehr posts. The use of the smaller images and scrollbar adhere to the intended simple and clean layout that was planned. Each blog title links to that individual page. Once on the blog post, users see the entire content of the blog and a button at the end of the post will take them back to the main blog home.
+**Blog**: The blog home page shows the latest blog as a feature, with a horixontal scrollbar of other posts. The use of the smaller images and scrollbar adhere to the intended simple and clean layout that was planned. Each blog title links to that individual page. Once on the blog post, users see the entire content of the blog and a button at the end of the post will take them back to the main blog home.
 
 **Contact**: This includes my direct contact details, and a contact form so users can easily send a message or get in contact with me.
 
