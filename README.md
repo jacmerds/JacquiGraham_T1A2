@@ -4,6 +4,8 @@
 
 ### [GitHub repo](https://github.com/jacmerds/JacquiGraham_T1A2.git)
 
+### [Link to presentation on YT](https://youtu.be/b7d5tOguvWE)
+
 <br>
 
 ## Purpose
