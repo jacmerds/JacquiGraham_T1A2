@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/colourfulbg-med.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  /* Nav bar */
+  header {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0.5rem;
+    font-family: 'work sans', sans-serif;
+  }
+
+  nav {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.25rem 0.5rem;
+    color: #fc5119;
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #b8ae00;
+  } 
+
+  #logo {
+    height: 30px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.742);
+    font-family: 'work sans', sans-serif;
+    color: #454545;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  main h2, main h3, main h4, span, img {
+    margin: 0.5rem;
+  }
+
+  main img {
+    width: 70vw;
+    border-radius: 10px;
+    margin-top: 1.5rem;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    
+  }
+  
+  main h4, span {
+    color: #fc5119;
+  }
+
+  main h2 {
+    font-size: 26px;
+  }
+
+  main h3 {
+    font-size: 18px;
+  }
+
+  main span {
+    font-size: 8px;
+  }
+
+  main p {
+    margin: 0.5rem 2rem;
+    text-align: start;
+  }
+
+  .button-orange {
+    display: inline-block;
+    font-family: 'work sans', sans-serif;
+    font-size: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border: 1.5px solid white;
+    background-color: #fe9404;
+    border-radius: 15px;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+  .button-orange:hover {
+    background-color: #fc5119;
+  }
+
+  /* social media and copyright footer */
+  #social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0.5rem;
+    font-size: 2vw;
+    margin-top: auto;
+  }
+  
+  #social-links p {
+    font-family: 'work sans', sans-serif;
+    margin: 0.25rem;
+    color: #fc5119;
+    font-size: 2vw;
+  }
+  
+ footer {
+    display: flex;
+    font-family: 'work sans', sans-serif;
+    justify-content: center;
+    margin-bottom: 0.75rem;
+    color: white;
+    font-size: 2vw;
+  }
+
+  /* responsive tablet */
+  @media screen and (min-width: 500px) and (max-width: 899px) {
+    
+    nav a {
+      font-size: 1rem;
+    }
+
+    main img {
+      width: 450px;
+    }
+
+    main  h2 {
+      font-size: 36px;
+    }
+    main h3 {
+      font-size: 20px;
+    }
+
+    main h4 {
+      font-size: 20px;
+    }
+
+    main span {
+      font-size: 10px;
+    }
+     
+    .button-orange {
+      font-size: 1.5vw;
+    } 
+    
+  }
+  
+  /* responsive desktop */
+  @media screen and (min-width: 900px) {
+  
+  body {
+      background-repeat: no-repeat;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  main img {
+    width: 600px;
+  }
+
+  main h2 {
+    font-size: 44px;
+  }
+
+  main h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  main span {
+    font-size: 12px;
+  }
+
+  .button-orange {
+    font-size: 1vw;
+  }
+  
+  #social-links p {
+    font-size: 18px;
+  }
+
+  footer {
+      font-size: 15px;
+  }
+  }

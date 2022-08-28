@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Work+Sans:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/colourfulbg-med.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+    background-repeat: repeat;
+    height: 100vh;
+  }
+
+  /* Nav bar */
+  header {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0.5rem;
+    font-family: 'work sans', sans-serif;
+  }
+
+  nav {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.25rem 0.5rem;
+    color: #fc5119;
+    font-size: 0.75rem;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #b8ae00;
+  } 
+
+  #logo {
+    height: 30px;
+  }
+
+
+  /* Hero section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0 2.5rem;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.365);
+  border-radius: 25px;
+  margin: 0.5rem 0.5rem;
+  font-family: 'work sans', sans-serif;
+}
+
+.hero h1 {
+  font-family: 'caveat', cursive;
+  font-size: 15vw;
+  color: white;
+  animation: fadein 4s;
+}
+
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.hero p {
+  /* flex-wrap: wrap; */
+  color: white;
+  background-color: #b8ae00;
+  border-radius: 10px;
+  padding: 0.15rem 0.5rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.button-orange {
+  display: inline-block;
+  font-family: 'work sans', sans-serif;
+  font-size: 0.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  border: 1.5px solid white;
+  background-color: #fe9404;
+  border-radius: 15px;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+.button-orange:hover {
+  background-color: #fc5119;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap; 
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight {
+  display: flex;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 100%;
+  height: 20vh;
+  margin: 0.5rem;
+  color: white;
+  font-family: 'work sans', sans-serif;
+  font-size: 6vw;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#highlight-1 {
+  background-color: #fe9601;
+}
+
+#highlight-2 {
+  background-color: #fdb8bf;
+}
+
+#highlight-3 {
+  background-color: #d5c300;
+}
+
+#highlight-4 {
+  background-color: #fed501;
+}
+
+#highlight-1:hover {
+  background-color: #fc5119;
+}
+
+#highlight-2:hover {
+  background-color: #fc5119;
+}
+
+#highlight-3:hover {
+  background-color: #fc5119;
+}
+
+#highlight-4:hover {
+  background-color: #fc5119;
+}
+
+/* social media and copyright footer */
+#social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  margin: 0.5rem;
+  font-size: 2vw;
+  margin-top: auto;
+}
+
+#social-links p {
+  font-family: 'work sans', sans-serif;
+  margin: 0.25rem;
+  color: #fc5119;
+  font-size: 2vw;
+}
+
+footer {
+  display: flex;
+  font-family: 'work sans', sans-serif;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  color: white;
+  font-size: 2vw;
+}
+
+/* responsive tablet */
+@media screen and (min-width: 500px) and (max-width: 899px) {
+  
+  nav a {
+    font-size: 1rem;
+  }
+
+  .highlight {
+    flex: 45%;
+    font-size: 4vw;
+  }
+
+  .button-orange {
+    font-size: 1.5vw;
+  }
+}
+
+/* responsive desktop */
+@media screen and (min-width: 900px) {
+
+  body {
+    background-repeat: no-repeat;
+  }
+
+  nav a {
+    font-size: 18px;
+  }
+
+  .highlight {
+    flex: 15%;
+    font-size: 4vw;
+  }
+
+  .button-orange {
+    font-size: 1.5vw;
+  }
+
+  #social-links p {
+    font-size: 18px;
+}
+
+  footer {
+      font-size: 15px;
+  }
+}
