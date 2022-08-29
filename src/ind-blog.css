@@ -9,7 +9,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: url("images/colourfulbg-med.jpg");
+    background-image: url("/images/colourfulbg-med.jpg");
     background-size: cover;
     background-position: 0px -150px;
     background-repeat: repeat;
